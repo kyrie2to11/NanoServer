@@ -103,13 +103,15 @@ bool HttpConn::process() {
     HTTP_CODE ret = request_.parse(readBuff_); 
     // 请求不完整，继续读取
     if (ret == HTTP_CODE::NO_REQUEST) {
-        return false; // 返回false后，会继续监听读
+        return false; // 返回false后，会继续监听读(处理逻辑在 webserver.cpp OnProcess_() 中)
     }
     // 请求完整，开始写
     else if (ret == HTTP_CODE::GET_REQUEST) {
         LOG_DEBUG("%s", request_.path().c_str());
         response_.Init(srcDir, request_.path(), request_.IsKeepAlive(), 200);
-        request_.Init(); // 如果是长连接，等待下一次请求，需要初始化
+
+        request_.Init(); // 等待下一次请求，需要初始化
+        readBuff_.RetrieveAll(); // 读缓冲区清空
     }
     //请求行错误, bad request
     else if (ret == HTTP_CODE::BAD_REQUEST)

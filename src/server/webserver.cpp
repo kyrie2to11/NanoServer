@@ -123,7 +123,7 @@ void WebServer::CloseConn_(HttpConn* client) {
 
 void WebServer::AddClient_(int fd, sockaddr_in addr) {
     assert(fd > 0);
-    users_[fd].init(fd, addr); // HttpConn 初始化
+    users_[fd].init(fd, addr); // HttpConn 初始化 （内部包含 request_ 的初始化）
     if(timeoutMS_ > 0) {
         timer_->add(fd, timeoutMS_, std::bind(&WebServer::CloseConn_, this, &users_[fd])); // std::bind() 返回一个新的可调用对象
     }

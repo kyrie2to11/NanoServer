@@ -1,0 +1,71 @@
+2024-12-24 23:02:50.636292 [info] : ========== Server init ==========
+2024-12-24 23:02:50.636300 [info] : Port:1316, OpenLinger: false
+2024-12-24 23:02:50.636304 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-24 23:02:50.636307 [info] : LogSys level: 1
+2024-12-24 23:02:50.636342 [info] : srcDir: /home/jarvis/Projects/webserver/NanoServer/resources/
+2024-12-24 23:02:50.636346 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-24 23:02:50.636534 [info] : ========== Server start ==========
+2024-12-24 23:02:53.663982 [info] : Client[18](192.168.124.67:24867) in, userCount:1
+2024-12-24 23:02:53.664021 [info] : Client[18] in!
+2024-12-24 23:02:53.664078 [info] : No new http connection arrived! current http connection userCount: 1
+2024-12-24 23:02:53.759627 [info] : Client[19](192.168.124.67:25635) in, userCount:2
+2024-12-24 23:02:53.759661 [info] : Client[19] in!
+2024-12-24 23:02:53.759692 [info] : No new http connection arrived! current http connection userCount: 2
+2024-12-24 23:02:53.760295 [info] : Client[18] quit!
+2024-12-24 23:02:53.760372 [info] : Client[18](192.168.124.67:24867) quit, UserCount:1
+2024-12-24 23:02:53.821341 [info] : Client[18](192.168.124.67:26403) in, userCount:2
+2024-12-24 23:02:53.821389 [info] : Client[18] in!
+2024-12-24 23:02:53.821406 [info] : No new http connection arrived! current http connection userCount: 2
+2024-12-24 23:02:53.834020 [info] : Client[19] quit!
+2024-12-24 23:02:53.834116 [info] : Client[19](192.168.124.67:25635) quit, UserCount:1
+2024-12-24 23:02:53.834554 [info] : Client[18] quit!
+2024-12-24 23:02:53.834616 [info] : Client[18](192.168.124.67:26403) quit, UserCount:0
+2024-12-24 23:02:53.847110 [info] : Client[18](192.168.124.67:26659) in, userCount:1
+2024-12-24 23:02:53.847164 [info] : Client[18] in!
+2024-12-24 23:02:53.847172 [info] : Client[19](192.168.124.67:26915) in, userCount:2
+2024-12-24 23:02:53.847184 [info] : Client[19] in!
+2024-12-24 23:02:53.847200 [info] : Client[20](192.168.124.67:27171) in, userCount:3
+2024-12-24 23:02:53.847212 [info] : Client[20] in!
+2024-12-24 23:02:53.847223 [info] : Client[21](192.168.124.67:27427) in, userCount:4
+2024-12-24 23:02:53.847233 [info] : Client[21] in!
+2024-12-24 23:02:53.847248 [info] : No new http connection arrived! current http connection userCount: 4
+2024-12-24 23:02:53.847693 [info] : Client[19] quit!
+2024-12-24 23:02:53.847706 [info] : Client[20] quit!
+2024-12-24 23:02:53.847718 [info] : Client[18] quit!
+2024-12-24 23:02:53.847784 [info] : Client[19](192.168.124.67:26915) quit, UserCount:3
+2024-12-24 23:02:53.847846 [info] : Client[20](192.168.124.67:27171) quit, UserCount:2
+2024-12-24 23:02:53.847877 [info] : Client[21] quit!
+2024-12-24 23:02:53.847880 [info] : Client[18](192.168.124.67:26659) quit, UserCount:1
+2024-12-24 23:02:53.847940 [info] : Client[21](192.168.124.67:27427) quit, UserCount:0
+2024-12-24 23:02:53.917874 [info] : Client[18](192.168.124.67:27683) in, userCount:1
+2024-12-24 23:02:53.917910 [info] : Client[18] in!
+2024-12-24 23:02:53.917918 [info] : Client[19](192.168.124.67:27939) in, userCount:2
+2024-12-24 23:02:53.917924 [info] : Client[19] in!
+2024-12-24 23:02:53.917964 [info] : No new http connection arrived! current http connection userCount: 2
+2024-12-24 23:02:53.918452 [info] : Client[18] quit!
+2024-12-24 23:02:53.918477 [info] : Client[19] quit!
+2024-12-24 23:02:53.918595 [info] : Client[19](192.168.124.67:27939) quit, UserCount:0
+2024-12-24 23:02:53.918612 [info] : Client[18](192.168.124.67:27683) quit, UserCount:0
+2024-12-24 23:02:53.950591 [info] : Client[18](192.168.124.67:28707) in, userCount:1
+2024-12-24 23:02:53.950637 [info] : Client[18] in!
+2024-12-24 23:02:53.950647 [info] : No new http connection arrived! current http connection userCount: 1
+2024-12-24 23:02:53.951157 [info] : Client[18] quit!
+2024-12-24 23:02:53.951213 [info] : Client[18](192.168.124.67:28707) quit, UserCount:0
+2024-12-24 23:02:53.971193 [info] : Client[18](192.168.124.67:28963) in, userCount:1
+2024-12-24 23:02:53.971218 [info] : Client[18] in!
+2024-12-24 23:02:53.971264 [info] : No new http connection arrived! current http connection userCount: 1
+2024-12-24 23:02:53.971810 [info] : Client[18] quit!
+2024-12-24 23:02:53.971856 [info] : Client[18](192.168.124.67:28963) quit, UserCount:0
+2024-12-24 23:02:53.976142 [info] : Client[18](192.168.124.67:29219) in, userCount:1
+2024-12-24 23:02:53.976182 [info] : Client[18] in!
+2024-12-24 23:02:53.976191 [info] : No new http connection arrived! current http connection userCount: 1
+2024-12-24 23:02:53.976694 [info] : Client[18] quit!
+2024-12-24 23:02:53.976743 [info] : Client[18](192.168.124.67:29219) quit, UserCount:0
+2024-12-24 23:02:53.998310 [info] : Client[18](192.168.124.67:29475) in, userCount:1
+2024-12-24 23:02:53.998335 [info] : Client[18] in!
+2024-12-24 23:02:53.998358 [info] : Client[19](192.168.124.67:29731) in, userCount:2
+2024-12-24 23:02:53.998365 [info] : Client[19] in!
+2024-12-24 23:02:53.998379 [info] : No new http connection arrived! current http connection userCount: 2
+2024-12-24 23:02:53.998905 [info] : Client[19] quit!
+2024-12-24 23:02:53.998917 [info] : Client[18] quit!
+2024-12-24 23:02:53.998964 [info] : Client[19](192.168.124.67:29731) quit, UserCount:1

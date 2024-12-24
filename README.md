@@ -68,6 +68,8 @@ TODO: kuiperInfer 集成，实现上传图片返回分割结果
 
    ```bash
    git clone https://github.com/kyrie2to11/NanoServer.git
+
+   # 安装 jsoncpp
    git submodule update --init --recursive
    cd jsoncpp
    cmake -S . -B build
@@ -79,6 +81,12 @@ TODO: kuiperInfer 集成，实现上传图片返回分割结果
    vim ~/.bashrc
    # jsoncpp
    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+   ```
+
+   ```bash
+   # 生成 NanoServer 可执行文件 
+   cd NanoServer
+   make
    ```
 
 3. mysql config
@@ -117,6 +125,16 @@ TODO: kuiperInfer 集成，实现上传图片返回分割结果
    tmux attach-session -t 0 # attach session
    
    # 默认访问端口： 1316 可在 main.cpp 更改
+   ```
+
+## bug
+
+1. 运行一段时间后 buffer 报错，暂不清楚原因
+
+   ```bash
+   (base) jarvis@zephyrus:~/Projects/webserver/NanoServer$ ./bin/server 
+   server: ../src/buffer/buffer.cpp:21: void Buffer::Retrieve(size_t): Assertion 'len <= ReadableBytes()' failed.
+   Aborted (core dumped)
    ```
 
 ## 致谢
